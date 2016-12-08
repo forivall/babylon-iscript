@@ -1,11 +1,11 @@
 {
-  "name": "babylon",
-  "version": "6.14.1",
+  "name": "babylon-iscript",
+  "version": "0.0.0",
   "description": "A JavaScript parser",
-  "author": "Sebastian McKenzie <sebmck@gmail.com>",
-  "homepage": "https://babeljs.io/",
+  "author": "J Klassen <forivall@gmail.com>",
+  "homepage": "https://github.com/forivall/babylon-iscript#readme",
   "license": "MIT",
-  "repository": "https://github.com/babel/babylon",
+  "repository": "https://github.com/forivall/babylon-iscript",
   "main": "lib/index.js",
   "files": [
     "bin",
@@ -36,7 +36,7 @@
     "unicode-9.0.0": "~0.7.0"
   },
   "bin": {
-    "babylon": "./bin/babylon.js"
+    "babylon-iscript": "./bin/babylon.js"
   },
   "scripts": {
     "build": "npm run clean && rollup -c",
