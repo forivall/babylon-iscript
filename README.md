@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  Babylon is a JavaScript parser used in <a href="https://github.com/babel/babel">Babel</a>.
+  Babylon-IScript is a fork of the <a href="https://github.com/babel/babylon">Babylon JavaScript parser</a> to allow it to parse the abomination that is ImageNow's IScript.
 </p>
 
 <p align="center">
-  <a href="https://travis-ci.org/babel/babylon"><img alt="Travis Status" src="https://img.shields.io/travis/babel/babylon/master.svg?style=flat&label=travis"></a>
-  <a href="https://codecov.io/gh/babel/babylon"><img alt="Codecov Status" src="https://img.shields.io/codecov/c/github/babel/babylon/master.svg?style=flat"></a>
+  <a href="https://travis-ci.org/forivall/babylon-iscript"><img alt="Travis Status" src="https://img.shields.io/travis/forivall/babylon-iscript/master.svg?style=flat&label=travis"></a>
+  <a href="https://codecov.io/gh/forivall/babylon-iscript"><img alt="Codecov Status" src="https://img.shields.io/codecov/c/github/forivall/babylon-iscript/master.svg?style=flat"></a>
 </p>
 
  - The latest ECMAScript version enabled by default (ES2017).

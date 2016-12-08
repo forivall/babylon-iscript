@@ -202,6 +202,7 @@ export default class Tokenizer {
   // whitespace and comments, and.
 
   skipSpace() {
+    let ppOk = false;
     loop: while (this.state.pos < this.input.length) {
       let ch = this.input.charCodeAt(this.state.pos);
       switch (ch) {
@@ -218,11 +219,13 @@ export default class Tokenizer {
           ++this.state.pos;
           ++this.state.curLine;
           this.state.lineStart = this.state.pos;
+          ppOk = true;
           break;
 
         case 47: // '/'
           switch (this.input.charCodeAt(this.state.pos + 1)) {
             case 42: // '*'
+              ppOk = false;
               this.skipBlockComment();
               break;
 
@@ -233,6 +236,12 @@ export default class Tokenizer {
             default:
               break loop;
           }
+          break;
+
+        case 35: // #
+          // preprocessor directive only can start at beginning of line
+          if (!ppOk) break loop;
+          this.skipLineComment(1);
           break;
 
         default:

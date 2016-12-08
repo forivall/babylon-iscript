@@ -1,0 +1,361 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 280,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 10,
+      "column": 11
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 280,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 10,
+        "column": 11
+      }
+    },
+    "sourceType": "script",
+    "body": [
+      {
+        "type": "ExpressionStatement",
+        "start": 269,
+        "end": 280,
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 0
+          },
+          "end": {
+            "line": 10,
+            "column": 11
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 269,
+          "end": 279,
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 0
+            },
+            "end": {
+              "line": 10,
+              "column": 10
+            }
+          },
+          "callee": {
+            "type": "Identifier",
+            "start": 269,
+            "end": 275,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 0
+              },
+              "end": {
+                "line": 10,
+                "column": 6
+              },
+              "identifierName": "toJSON"
+            },
+            "name": "toJSON",
+            "leadingComments": null
+          },
+          "arguments": [
+            {
+              "type": "ObjectExpression",
+              "start": 276,
+              "end": 278,
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 7
+                },
+                "end": {
+                  "line": 10,
+                  "column": 9
+                }
+              },
+              "properties": []
+            }
+          ],
+          "leadingComments": null
+        },
+        "leadingComments": [
+          {
+            "type": "CommentLine",
+            "value": "STL packages",
+            "start": 0,
+            "end": 14,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 14
+              }
+            }
+          },
+          {
+            "type": "CommentLine",
+            "value": "if defined(imagenowDir6)",
+            "start": 15,
+            "end": 40,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 25
+              }
+            }
+          },
+          {
+            "type": "CommentLine",
+            "value": " 6.7.0.2717+, including Active-Active support",
+            "start": 43,
+            "end": 90,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 2
+              },
+              "end": {
+                "line": 3,
+                "column": 49
+              }
+            }
+          },
+          {
+            "type": "CommentLine",
+            "value": "include \"$IMAGENOWDIR6$/script/STL/packages/Object/toJSON.js\"",
+            "start": 93,
+            "end": 155,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 2
+              },
+              "end": {
+                "line": 4,
+                "column": 64
+              }
+            }
+          },
+          {
+            "type": "CommentLine",
+            "value": "else",
+            "start": 156,
+            "end": 161,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 0
+              },
+              "end": {
+                "line": 5,
+                "column": 5
+              }
+            }
+          },
+          {
+            "type": "CommentLine",
+            "value": " pre-6.7.0.2717, no Active-Active support",
+            "start": 164,
+            "end": 207,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 2
+              },
+              "end": {
+                "line": 6,
+                "column": 45
+              }
+            }
+          },
+          {
+            "type": "CommentLine",
+            "value": "include \"../script/STL/packages/Object/toJSON.js\"",
+            "start": 210,
+            "end": 260,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 2
+              },
+              "end": {
+                "line": 7,
+                "column": 52
+              }
+            }
+          },
+          {
+            "type": "CommentLine",
+            "value": "endif",
+            "start": 261,
+            "end": 267,
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 0
+              },
+              "end": {
+                "line": 8,
+                "column": 6
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "directives": []
+  },
+  "comments": [
+    {
+      "type": "CommentLine",
+      "value": "STL packages",
+      "start": 0,
+      "end": 14,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "if defined(imagenowDir6)",
+      "start": 15,
+      "end": 40,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " 6.7.0.2717+, including Active-Active support",
+      "start": 43,
+      "end": 90,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 2
+        },
+        "end": {
+          "line": 3,
+          "column": 49
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "include \"$IMAGENOWDIR6$/script/STL/packages/Object/toJSON.js\"",
+      "start": 93,
+      "end": 155,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 4,
+          "column": 64
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "else",
+      "start": 156,
+      "end": 161,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " pre-6.7.0.2717, no Active-Active support",
+      "start": 164,
+      "end": 207,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 6,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "include \"../script/STL/packages/Object/toJSON.js\"",
+      "start": 210,
+      "end": 260,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 7,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "endif",
+      "start": 261,
+      "end": 267,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 6
+        }
+      }
+    }
+  ]
+}
